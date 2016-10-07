@@ -32,7 +32,7 @@
   </head>
   <body>
     
-		  <nav class="my-nav navbar navbar-default m-b-0">
+		 <nav class="my-nav navbar navbar-default m-b-0">
 		  <div class="container">
 		    <!-- Brand and toggle get grouped for better mobile display -->
 		    <div class="navbar-header">
@@ -52,7 +52,16 @@
 		      
 		        <ul class="nav navbar-nav navbar-right nav-headings">
 		        <li class="active"><a href="index.html">Home</a></li>
-		        <li><a href="index.html#schedule">Schedule</a></li>
+		          <li class="dropdown">
+			          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Schedules<span class="caret"></span></a>
+			          <ul class="dropdown-menu">
+			            <li><a href="index.html#varsity">Varsity Schedule</a></li>
+			            <li role="separator" class="divider"></li>
+			            <li><a href="index.html#jv">Junior Varsity Schedule</a></li>
+			            <li role="separator" class="divider"></li>
+			            <li><a href="index.html#sophomore">Sophomore Schedule</a></li>
+			          </ul>
+			        </li>
 		        <li><a href="workouts.html">Strength and Conditioning</a></li>
 		        <li><a href="basketball_skills.html">Basketball Skill Works</a></li>
 		        <li><a href="contact.html">Contact</a></li>
@@ -77,88 +86,428 @@
 
 		
 		<div class="container-fluid text-center slogan">
-			<h2>"We are the Tigers, the mighty, mighty Tigers."</h2>
+			<div class="container">
+				<h2 class="line-height">"Here's how WE are going to beat you. WE are going to out work you. <br>That's it. That's all there is to it."</h2>
+				<p>Pat Summitt</p>
+			</div>
 		</div>
 		
 
+	<div id="schedule" class="container schedule padding-top m-t-1">
+		<div class="row">
+			<div class="col-xs-4 schedule-links">
+				<a href="index.html#varsity">Varsity Schedule</a>
+			</div>
+			<div class="text-center col-xs-4 schedule-links">
+				<a href="index.html#jv">Junior Varsity Schedule</a>
+			</div>
+			<div class="text-right col-xs-4 schedule-links">
+				<a href="index.html#sophomore">Sophomore Schedule</a> 
+			</div>
+		</div>
+		<hr>
+	</div>
 
-	<div class="container-fluid schedule padding-top">
+
+
+ <!-- Varsity Schedule -->
+	<div id="varsity" class="container-fluid schedule padding-top">
 		<div class="row schedule">
-			<div id="schedule" class="container p-b-sm">
-			<h4 class="text-left">Tiger's Varsity Schedule 2016 <span class="pull-right">Tiger's Record 3-1</span></h4>
+			<div class="container p-b-sm">
+			<h4 class="text-left">Tiger's Varsity Schedule 2016 <span class="pull-right">Tiger's Varsity Record: 0 - 0</span></h4><small>(dark highlight = away game, * = league event)</small>
 			
 			</div>
 		</div>
 		
 		
-    <!-- Schedule -->
+   
     	<div class="container padding-bottom">
 
-	      <li class="list-group-item win-row opacity">
-	        <h4 class="list-group-item-heading">Skyview Hawks 
-	        <span class="label label-info label-orange pull-right">11/20/16</span></h4>
-	        <a target="_blank" href="https://www.google.com/maps/dir/Skyview+High+School,+East+Greenhurst+Road,+Nampa,+ID/Mountain+Home+High+School,+300+S+11th+E,+Mountain+Home,+ID+83647/@43.2910625,-116.4175215,10z/data=!3m1!4b1!4m13!4m12!1m5!1m1!1s0x54ae494d7256b163:0x9307542004abb280!2m2!1d-116.5556016!2d43.5448504!1m5!1m1!1s0x54ac2c3edc7b750f:0x2867d621af6a7ad4!2m2!1d-115.6848083!2d43.1301726">@Skyview</a> at <small>6:00 PM</small><span class="black pull-right">Tigers win! 35 - 28</span>
+	      <li class="list-group-item dark-row opacity">
+	        <h4 class="list-group-item-heading">Columbia High School
+	        <span class="label label-info label-orange pull-right">Sat. 11/12/16</span></h4>
+	        <a target="_blank" href="https://www.google.com/maps/dir/Mountain+Home+High+School,+300+South+11th+East,+Mountain+Home,+ID+83647/Columbia+High+School,+South+Happy+Valley+Road,+Nampa,+ID/@43.365257,-116.3703452,10z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x54ac2c3edc7b750f:0x2867d621af6a7ad4!2m2!1d-115.6848083!2d43.1301726!1m5!1m1!1s0x54ae4dd5524ea611:0x5a6d98300c2038a2!2m2!1d-116.5144236!2d43.5665245!3e0">@Columbia</a> at <small>7:30 PM, depart at 4:30 PM</small><span class="black pull-right"><small></small></span>
 	      </li>
-	      <li class="list-group-item win-row opacity">
-	        <h4 class="list-group-item-heading">Nampa High School 
-	        <span class="label label-info label-orange pull-right">11/20/16</span></h4>
-	        Home <small>at 6:00 PM</small><span class="black pull-right">Tigers win! 35 - 28</span>
+	      <li class="list-group-item dark-row opacity"> 
+	        <h4 class="list-group-item-heading">Kimberly High School
+	        <span class="label label-info label-orange pull-right">Tues. 11/15/16</span></h4>
+	        <a target="_blank" href="https://www.google.com/maps/dir/Mountain+Home+High+School,+300+South+11th+East,+Mountain+Home,+ID+83647/Kimberly+High+School,+Center+Street+West,+Kimberly,+ID/@42.8346612,-115.5530349,9z/data=!4m14!4m13!1m5!1m1!1s0x54ac2c3edc7b750f:0x2867d621af6a7ad4!2m2!1d-115.6848083!2d43.1301726!1m5!1m1!1s0x54aca69429fe2bad:0xdbcf313c4be75f22!2m2!1d-114.373459!2d42.5317649!3e0">@Kimberly</a> at <small>7:30 PM, depart at 4:30 PM</small><span class="black pull-right"><small></small></span>
 	      </li>
-	     <li class="list-group-item lose-row opacity">
-	        <h4 class="list-group-item-heading">Kuna Kavemen 
-	        <span class="label label-info label-orange pull-right">11/23/16</span></h4>
-	        Home <small>at 6:00 PM</small><span class="black pull-right">Tigers fall 35 - 28</span>
+	     <li class="list-group-item opacity">
+	        <h4 class="list-group-item-heading">*Ridgevue High School
+	        <span class="label label-info label-orange pull-right">Fri. 11/18/16</span></h4>
+	        Home <small>at 7:30 PM</small><span class="black pull-right"></span>
 	      </li>
-	      <li class="list-group-item win-row opacity">
-	        <h4 class="list-group-item-heading">Columbia Wildcats <span class="label label-info label-orange pull-right">11/28/16</span></h4>
-	        @Columbia <small>at 6:00 PM</small>
-	        <span class="black pull-right">Tigers win! 35 - 28</span>
+	      <li class="list-group-item opacity">
+	        <h4 class="list-group-item-heading">Wood River High School <span class="label label-info label-orange pull-right">Sat. 11/19/16</span></h4>
+	        Home <small>at 7:30 PM</small>
+	        <span class="black pull-right"></span>
+	      </li>
+           <li class="list-group-item opacity dark-row">
+	        <h4 class="list-group-item-heading">*Emmett High School
+	        <span class="label label-info label-orange pull-right">Wed. 11/30/16</span></h4>
+	        <a target="_blank" href="https://www.google.com/maps/dir/Mountain+Home+High+School,+300+South+11th+East,+Mountain+Home,+ID+83647/Emmett+High+School,+721+W+12th+St,+Emmett,+ID+83617/@43.4960707,-116.6464489,9z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x54ac2c3edc7b750f:0x2867d621af6a7ad4!2m2!1d-115.6848083!2d43.1301726!1m5!1m1!1s0x54afa759618c8961:0x5baededb98a89e9f!2m2!1d-116.5088832!2d43.8637921!3e0">@Emmett</a> at <small>7:30 PM, depart at 4:15 PM</small><span class="black pull-right"><small></small></span>
+	      </li>
+	       <li class="list-group-item dark-row opacity">
+	        <h4 class="list-group-item-heading">*Vallivue High School
+	        <span class="label label-info label-orange pull-right">Fri. 12/02/16</span></h4>
+	        <a target="_blank" href="https://www.google.com/maps/dir/Mountain+Home+High+School,+300+South+11th+East,+Mountain+Home,+ID+83647/Vallivue+High+School,+East+Homedale+Road,+Caldwell,+ID/@43.306725,-116.4518041,10z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x54ac2c3edc7b750f:0x2867d621af6a7ad4!2m2!1d-115.6848083!2d43.1301726!1m5!1m1!1s0x54afb513fa648de5:0xc8c30071313df121!2m2!1d-116.6800784!2d43.6197893!3e0">@Vallivue</a> at <small>7:30 PM, depart at 4:30 PM</small><span class="black pull-right"><small></small></span>
+	      </li>
+	      <li class="list-group-item opacity">
+	        <h4 class="list-group-item-heading">*Caldwell Senior High School<span class="label label-info label-orange pull-right">Wed. 12/07/16</span></h4>
+	        Home <small>at 7:30 PM</small>
+	      </li>
+	       <li class="list-group-item dark-row opacity">
+	        <h4 class="list-group-item-heading">*Bishop Kelly High School
+	        <span class="label label-info label-orange pull-right">Fri. 12/09/16</span></h4>
+	        <a target="_blank" href="https://www.google.com/maps/dir/Mountain+Home+High+School,+300+South+11th+East,+Mountain+Home,+ID+83647/Bishop+Kelly+High+school,+West+Franklin+Road,+Boise,+ID/@43.3672539,-116.259631,10z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x54ac2c3edc7b750f:0x2867d621af6a7ad4!2m2!1d-115.6848083!2d43.1301726!1m5!1m1!1s0x54ae566697a2042d:0xf5f0ceb30375be4c!2m2!1d-116.2957323!2d43.6049103!3e0">@Bishop Kelly</a> at <small>6:00 PM, depart at 4:00 PM</small><span class="black pull-right"><small></small></span>
+	      </li>
+	         <li class="list-group-item dark-row opacity">
+		        <h4 class="list-group-item-heading">Opp. TBA (Parma Tourney) <span class="label label-info label-orange pull-right">Tues. 12/27/16</span></h4>
+		        @TBA
+	      	</li>
+	        </li>
+	        <li class="list-group-item dark-row opacity">
+		        <h4 class="list-group-item-heading">Opp. TBA (Parma Tourney) <span class="label label-info label-orange pull-right">Wed. 12/28/16</span></h4>
+		        @TBA
+	      	</li>
+	        <li class="list-group-item dark-row opacity">
+		        <h4 class="list-group-item-heading">Opp. TBA (Parma Tourney) <span class="label label-info label-orange pull-right">Thurs. 12/29/16</span></h4>
+		        @TBA
+	      	</li>
+	      	 <li class="list-group-item dark-row opacity">
+	        <h4 class="list-group-item-heading">Wood River High School
+	        <span class="label label-info label-orange pull-right">Tues. 1/03/17</span></h4>
+	        <a target="_blank" href="https://www.google.com/maps/dir/Mountain+Home+High+School,+300+South+11th+East,+Mountain+Home,+ID+83647/Wood+River+High+School,+Fox+Acres+Drive,+Hailey,+ID/@43.2201536,-115.5310442,9z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x54ac2c3edc7b750f:0x2867d621af6a7ad4!2m2!1d-115.6848083!2d43.1301726!1m5!1m1!1s0x54abd5003909fd03:0xfcad2c0ec037d5e6!2m2!1d-114.2936776!2d43.5175049!3e0">@Wood River</a> at <small>7:30 PM, depart at 4:00 PM</small><span class="black pull-right"><small></small></span>
+	      </li>
+	     <li class="list-group-item opacity">
+	        <h4 class="list-group-item-heading">*Skyview High School<span class="label label-info label-orange pull-right">Wed. 1/04/17</span></h4>
+	        Home <small>at 7:30 PM</small>
+	      </li>
+	       <li class="list-group-item dark-row opacity">
+	        <h4 class="list-group-item-heading">*Middleton High School
+	        <span class="label label-info label-orange pull-right">Fri. 1/06/17</span></h4>
+	        <a target="_blank" href="https://www.google.com/maps/dir/Mountain+Home+High+School,+300+South+11th+East,+Mountain+Home,+ID+83647/Middleton+High+School,+Emmett+Road,+Middleton,+ID/@43.424364,-116.4619497,10z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x54ac2c3edc7b750f:0x2867d621af6a7ad4!2m2!1d-115.6848083!2d43.1301726!1m5!1m1!1s0x54afb19163ec0de5:0x5a7886fa82ae9255!2m2!1d-116.6515295!2d43.7182305!3e0">@Middleton</a> at <small>7:30 PM, depart at 4:15 PM</small><span class="black pull-right"><small></small></span>
+	      </li>
+	       <li class="list-group-item dark-row opacity">
+	        <h4 class="list-group-item-heading">*Ridgevue High School
+	        <span class="label label-info label-orange pull-right">Tues. 1/10/17</span></h4>
+	        <a target="_blank" href="https://www.google.com/maps/dir/Mountain+Home+High+School,+300+South+11th+East,+Mountain+Home,+ID+83647/Ridgevue+High+School,+Madison+Road,+Nampa,+ID/@43.3876481,-116.3934236,10z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x54ac2c3edc7b750f:0x2867d621af6a7ad4!2m2!1d-115.6848083!2d43.1301726!1m5!1m1!1s0x54afb2c7538b60b9:0x4ec265d5467ffb3b!2m2!1d-116.5618044!2d43.6458334!3e0">@Ridgevue</a> at <small>7:30 PM, depart at 4:30 PM</small><span class="black pull-right"><small></small></span>
+	      </li>
+	      <li class="list-group-item opacity">
+	        <h4 class="list-group-item-heading">*Emmett High School<span class="label label-info label-orange pull-right">Thurs. 1/12/17</span></h4>
+	        Home <small>at 7:30 PM</small>
+	      </li>
+	       <li class="list-group-item opacity">
+	        <h4 class="list-group-item-heading">*Vallivue High School<span class="label label-info label-orange pull-right">Tues. 1/17/17</span></h4>
+	        Home <small>at 7:30 PM</small>
+	      </li>
+	       <li class="list-group-item dark-row opacity">
+	        <h4 class="list-group-item-heading">*Caldwell Senior High School
+	        <span class="label label-info label-orange pull-right">Thurs. 1/19/17</span></h4>
+	        <a target="_blank" href="https://www.google.com/maps/dir/Mountain+Home+High+School,+300+South+11th+East,+Mountain+Home,+ID+83647/Caldwell+High+School,+South+Indiana+Avenue,+Caldwell,+ID/@43.3278936,-116.7314908,9z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x54ac2c3edc7b750f:0x2867d621af6a7ad4!2m2!1d-115.6848083!2d43.1301726!1m5!1m1!1s0x54afb4677526c3e1:0xc867ecf4de030fbe!2m2!1d-116.6700922!2d43.6392667!3e0">@Caldwell</a> at <small>7:30 PM, depart at 4:15 PM</small><span class="black pull-right"><small></small></span>
+	      </li>
+	      <li class="list-group-item opacity">
+	        <h4 class="list-group-item-heading">*Bishop Kelly High School<span class="label label-info label-orange pull-right">Tues. 1/24/17</span></h4>
+	        Home <small>at 7:30 PM</small>
+	      </li>
+	       <li class="list-group-item dark-row opacity">
+	        <h4 class="list-group-item-heading">*Skyview High School
+	        <span class="label label-info label-orange pull-right">Thurs. 1/26/17</span></h4>
+	        <a target="_blank" href="https://www.google.com/maps/dir/Mountain+Home+High+School,+300+South+11th+East,+Mountain+Home,+ID+83647/Skyview+High+School,+East+Greenhurst+Road,+Nampa,+ID/@43.365257,-116.390817,10z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x54ac2c3edc7b750f:0x2867d621af6a7ad4!2m2!1d-115.6848083!2d43.1301726!1m5!1m1!1s0x54ae494d7256b163:0x9307542004abb280!2m2!1d-116.555591!2d43.544794!3e0">@Skyview</a> at <small>7:30 PM, depart at 4:30 PM</small><span class="black pull-right"><small></small></span>
+	      </li>
+	      <li class="list-group-item opacity">
+	        <h4 class="list-group-item-heading">*Middleton High School<span class="label label-info label-orange pull-right">Tues. 1/31/17</span></h4>
+	        Home <small>at 7:30 PM</small>
+	      </li>
+	       <li class="list-group-item dark-row opacity">
+		        <h4 class="list-group-item-heading">Opp. TBA (Districts @ High Seed) <span class="label label-info label-orange pull-right">Mon. 2/06/17</span></h4>
+		        @TBA (High Seed)
+	      	</li>
+	      	 <li class="list-group-item dark-row opacity">
+		        <h4 class="list-group-item-heading">Opp. TBA (Districts @ High Seed) <span class="label label-info label-orange pull-right">Tues. 2/07/17</span></h4>
+		        @TBA (High Seed)
+	      	</li>
+	      	  <li class="list-group-item dark-row opacity">
+		        <h4 class="list-group-item-heading">Opp. TBA (Districts @ Mountain Home) <span class="label label-info label-orange pull-right">Wed. 2/08/17</span></h4>
+		        @Mountain Home
+	      	</li>
+	      	<li class="list-group-item dark-row opacity">
+		        <h4 class="list-group-item-heading">Opp. TBA (Districts @ Mountain Home) <span class="label label-info label-orange pull-right">Thurs. 2/09/17</span></h4>
+		        @Mountain Home
+	      	</li>
+	      	<li class="list-group-item dark-row opacity">
+		        <h4 class="list-group-item-heading">Opp. TBA (State @ TBA) <span class="label label-info label-orange pull-right">Thurs. 2/16/17</span></h4>
+		        @TBA
+	      	</li>
+	      	 <li class="list-group-item dark-row opacity">
+		        <h4 class="list-group-item-heading">Opp. TBA (State @ TBA) <span class="label label-info label-orange pull-right">Fri. 2/17/17</span></h4>
+		        @TBA
+	      	</li>
+	      	<li class="list-group-item dark-row opacity">
+		        <h4 class="list-group-item-heading">Opp. TBA (State @ TBA) <span class="label label-info label-orange pull-right">Sat. 2/18/17</span></h4>
+		        @TBA
+	      	</li>
+
+	     </div>
+      <!-- /Varsity Schedule -->
+		</div>
+
+		 <!-- Junior Varsity Schedule -->
+	<div id="jv" class="container-fluid schedule orange-bg padding-top">
+		<div class="row schedule">
+			<div class="container p-b-sm">
+			<h4 class="text-left white">Tiger's Junior Varsity Schedule 2016 <span class="pull-right">Tiger's Junior Varsity Record: 0 - 0</span></h4><small><div class="white">(dark highlight = away game, * = league event)</div></small>
+			
+			</div>
+		</div>
+		
+		
+   
+    	<div class="container padding-bottom">
+
+	      <li class="list-group-item dark-row opacity">
+	        <h4 class="list-group-item-heading">Columbia High School
+	        <span class="label label-info label-orange pull-right">Sat. 11/12/16</span></h4>
+	        <a target="_blank" href="https://www.google.com/maps/dir/Mountain+Home+High+School,+300+South+11th+East,+Mountain+Home,+ID+83647/Columbia+High+School,+South+Happy+Valley+Road,+Nampa,+ID/@43.365257,-116.3703452,10z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x54ac2c3edc7b750f:0x2867d621af6a7ad4!2m2!1d-115.6848083!2d43.1301726!1m5!1m1!1s0x54ae4dd5524ea611:0x5a6d98300c2038a2!2m2!1d-116.5144236!2d43.5665245!3e0">@Columbia</a> at <small>6:00 PM, depart at 2:15 PM, dismiss at 2:00 PM</small><span class="black pull-right"><small></small></span>
 	      </li>
 	      <li class="list-group-item dark-row opacity">
-	        <h4 class="list-group-item-heading">Skyview Hawks <span class="label label-info label-orange pull-right">11/29/16</span></h4>
+	        <h4 class="list-group-item-heading">Kimberly High School
+	        <span class="label label-info label-orange pull-right">Tues. 11/15/16</span></h4>
+	        <a target="_blank" href="https://www.google.com/maps/dir/Mountain+Home+High+School,+300+South+11th+East,+Mountain+Home,+ID+83647/Kimberly+High+School,+Center+Street+West,+Kimberly,+ID/@42.8346612,-115.5530349,9z/data=!4m14!4m13!1m5!1m1!1s0x54ac2c3edc7b750f:0x2867d621af6a7ad4!2m2!1d-115.6848083!2d43.1301726!1m5!1m1!1s0x54aca69429fe2bad:0xdbcf313c4be75f22!2m2!1d-114.373459!2d42.5317649!3e0">@Kimberly</a> at <small>6:00 PM, depart at 2:00 PM, dismiss at 1:45 PM</small><span class="black pull-right"><small></small></span>
+	      </li>
+	     <li class="list-group-item opacity">
+	        <h4 class="list-group-item-heading">*Ridgevue High School
+	        <span class="label label-info label-orange pull-right">Fri. 11/18/16</span></h4>
+	        Home <small>at 6:00 PM</small><span class="black pull-right"></span>
+	      </li>
+	      <li class="list-group-item opacity">
+	        <h4 class="list-group-item-heading">Wood River High School <span class="label label-info label-orange pull-right">Sat. 11/19/16</span></h4>
+	        Home <small>at 6:00 PM</small>
+	        <span class="black pull-right"></span>
+	      </li>
+           <li class="list-group-item dark-row opacity">
+	        <h4 class="list-group-item-heading">*Emmett High School
+	        <span class="label label-info label-orange pull-right">Wed. 11/30/16</span></h4>
+	        <a target="_blank" href="https://www.google.com/maps/dir/Mountain+Home+High+School,+300+South+11th+East,+Mountain+Home,+ID+83647/Emmett+High+School,+721+W+12th+St,+Emmett,+ID+83617/@43.4960707,-116.6464489,9z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x54ac2c3edc7b750f:0x2867d621af6a7ad4!2m2!1d-115.6848083!2d43.1301726!1m5!1m1!1s0x54afa759618c8961:0x5baededb98a89e9f!2m2!1d-116.5088832!2d43.8637921!3e0">@Emmett</a> at <small>6:00 PM, depart at 2:00 PM, dismiss at 1:45 PM</small><span class="black pull-right"><small></small></span>
+	      </li>
+	       <li class="list-group-item dark-row  opacity">
+	        <h4 class="list-group-item-heading">*Vallivue High School
+	        <span class="label label-info label-orange pull-right">Fri. 12/02/16</span></h4>
+	        <a target="_blank" href="https://www.google.com/maps/dir/Mountain+Home+High+School,+300+South+11th+East,+Mountain+Home,+ID+83647/Vallivue+High+School,+East+Homedale+Road,+Caldwell,+ID/@43.306725,-116.4518041,10z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x54ac2c3edc7b750f:0x2867d621af6a7ad4!2m2!1d-115.6848083!2d43.1301726!1m5!1m1!1s0x54afb513fa648de5:0xc8c30071313df121!2m2!1d-116.6800784!2d43.6197893!3e0">@Vallivue</a> at <small>6:00 PM, depart at 2:30 PM, dismiss at 2:15 PM</small><span class="black pull-right"><small></small></span>
+	      </li>
+	      <li class="list-group-item opacity">
+	        <h4 class="list-group-item-heading">*Caldwell Senior High School<span class="label label-info label-orange pull-right">Wed. 12/07/16</span></h4>
 	        Home <small>at 6:00 PM</small>
 	      </li>
+	       <li class="list-group-item dark-row opacity">
+	        <h4 class="list-group-item-heading">Bishop Kelly High School
+	        <span class="label label-info label-orange pull-right">Sat. 12/10/16</span></h4>
+	        <a target="_blank" href="https://www.google.com/maps/dir/Mountain+Home+High+School,+300+South+11th+East,+Mountain+Home,+ID+83647/Bishop+Kelly+High+school,+West+Franklin+Road,+Boise,+ID/@43.3672539,-116.259631,10z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x54ac2c3edc7b750f:0x2867d621af6a7ad4!2m2!1d-115.6848083!2d43.1301726!1m5!1m1!1s0x54ae566697a2042d:0xf5f0ceb30375be4c!2m2!1d-116.2957323!2d43.6049103!3e0">@Bishop Kelly</a> at <small>11:30 AM, depart at 9:30 AM</small><span class="black pull-right"><small></small></span>
+	      </li>
+	         <li class="list-group-item dark-row opacity">
+		        <h4 class="list-group-item-heading">Opp. TBA (Capital Classic Tourney) <span class="label label-info label-orange pull-right">Wed. 12/21/16</span></h4>
+		        @TBA
+	      	</li>
+	          <li class="list-group-item dark-row opacity">
+		        <h4 class="list-group-item-heading">Opp. TBA (Capital Classic Tourney) <span class="label label-info label-orange pull-right">Thurs. 12/22/16</span></h4>
+		        @TBA
+	      	</li>
+	         <li class="list-group-item dark-row opacity">
+		        <h4 class="list-group-item-heading">Opp. TBA (Capital Classic Tourney) <span class="label label-info label-orange pull-right">Fri. 12/23/16</span></h4>
+		        @TBA
+	      	</li>
+	      	 <li class="list-group-item dark-row opacity">
+	        <h4 class="list-group-item-heading">Wood River High School
+	        <span class="label label-info label-orange pull-right">Tues. 1/03/17</span></h4>
+	        <a target="_blank" href="https://www.google.com/maps/dir/Mountain+Home+High+School,+300+South+11th+East,+Mountain+Home,+ID+83647/Wood+River+High+School,+Fox+Acres+Drive,+Hailey,+ID/@43.2201536,-115.5310442,9z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x54ac2c3edc7b750f:0x2867d621af6a7ad4!2m2!1d-115.6848083!2d43.1301726!1m5!1m1!1s0x54abd5003909fd03:0xfcad2c0ec037d5e6!2m2!1d-114.2936776!2d43.5175049!3e0">@Wood River</a> at <small>6:00 PM, depart at 2:30 PM, dismiss at 2:15 PM</small><span class="black pull-right"><small></small></span>
+	      </li>
+	     <li class="list-group-item opacity">
+	        <h4 class="list-group-item-heading">*Skyview High School<span class="label label-info label-orange pull-right">Wed. 1/04/17</span></h4>
+	        Home <small>at 6:00 PM</small>
+	      </li>
+	       <li class="list-group-item dark-row opacity">
+	        <h4 class="list-group-item-heading">*Middleton High School
+	        <span class="label label-info label-orange pull-right">Fri. 1/06/17</span></h4>
+	        <a target="_blank" href="https://www.google.com/maps/dir/Mountain+Home+High+School,+300+South+11th+East,+Mountain+Home,+ID+83647/Middleton+High+School,+Emmett+Road,+Middleton,+ID/@43.424364,-116.4619497,10z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x54ac2c3edc7b750f:0x2867d621af6a7ad4!2m2!1d-115.6848083!2d43.1301726!1m5!1m1!1s0x54afb19163ec0de5:0x5a7886fa82ae9255!2m2!1d-116.6515295!2d43.7182305!3e0">@Middleton</a> at <small>6:00 PM, depart at 2:15 PM, dismiss at 2:00 PM</small><span class="black pull-right"><small></small></span>
+	      </li>
+	       <li class="list-group-item dark-row opacity">
+	        <h4 class="list-group-item-heading">*Ridgevue High School
+	        <span class="label label-info label-orange pull-right">Tues. 1/10/17</span></h4>
+	        <a target="_blank" href="https://www.google.com/maps/dir/Mountain+Home+High+School,+300+South+11th+East,+Mountain+Home,+ID+83647/Ridgevue+High+School,+Madison+Road,+Nampa,+ID/@43.3876481,-116.3934236,10z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x54ac2c3edc7b750f:0x2867d621af6a7ad4!2m2!1d-115.6848083!2d43.1301726!1m5!1m1!1s0x54afb2c7538b60b9:0x4ec265d5467ffb3b!2m2!1d-116.5618044!2d43.6458334!3e0">@Ridgevue</a> at <small>6:00 PM, depart at 2:30 PM, dismiss at 2:15 PM</small><span class="black pull-right"><small></small></span>
+	      </li>
 	      <li class="list-group-item opacity">
-	        <h4 class="list-group-item-heading">Emmett Huskies <span class="label label-info label-orange pull-right">11/30/16</span></h4>
-	        @Emmett <small>at 6:00 PM</small>
+	        <h4 class="list-group-item-heading">*Emmett High School<span class="label label-info label-orange pull-right">Thurs. 1/12/17</span></h4>
+	        Home <small>at 6:00 PM</small>
 	      </li>
-	      <li class="list-group-item dark-row opacity">
-	        <h4 class="list-group-item-heading">Bishop Kelly Knights<span class="label label-info label-orange pull-right">12/1/16</span></h4>
-	        @BK <small>at 6:00 PM</small>
+	       <li class="list-group-item opacity">
+	        <h4 class="list-group-item-heading">*Vallivue High School<span class="label label-info label-orange pull-right">Tues. 1/17/17</span></h4>
+	        Home <small>at 6:00 PM</small>
+	      </li>
+	       <li class="list-group-item dark-row opacity">
+	        <h4 class="list-group-item-heading">*Caldwell Senior High School
+	        <span class="label label-info label-orange pull-right">Thurs. 1/19/17</span></h4>
+	        <a target="_blank" href="https://www.google.com/maps/dir/Mountain+Home+High+School,+300+South+11th+East,+Mountain+Home,+ID+83647/Caldwell+High+School,+South+Indiana+Avenue,+Caldwell,+ID/@43.3278936,-116.7314908,9z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x54ac2c3edc7b750f:0x2867d621af6a7ad4!2m2!1d-115.6848083!2d43.1301726!1m5!1m1!1s0x54afb4677526c3e1:0xc867ecf4de030fbe!2m2!1d-116.6700922!2d43.6392667!3e0">@Caldwell</a> at <small>6:00 PM, depart at 2:15 PM, dismiss at 2:00 PM</small><span class="black pull-right"><small></small></span>
 	      </li>
 	      <li class="list-group-item opacity">
-	        <h4 class="list-group-item-heading">Vallivue Falcons<span class="label label-info label-orange pull-right">12/2/16</span></h4>
-	        @Vallivue <small>at 6:00 PM</small>
+	        <h4 class="list-group-item-heading">*Bishop Kelly High School<span class="label label-info label-orange pull-right">Tues. 1/24/17</span></h4>
+	        Home <small>at 6:00 PM</small>
 	      </li>
-	        <li class="list-group-item dark-row opacity">
-	        <h4 class="list-group-item-heading">Districts <span class="label label-info label-orange pull-right">12/4/16</span></h4>
-	        @TBA
+	       <li class="list-group-item dark-row opacity">
+	        <h4 class="list-group-item-heading">*Skyview High School
+	        <span class="label label-info label-orange pull-right">Thurs. 1/26/17</span></h4>
+	        <a target="_blank" href="https://www.google.com/maps/dir/Mountain+Home+High+School,+300+South+11th+East,+Mountain+Home,+ID+83647/Skyview+High+School,+East+Greenhurst+Road,+Nampa,+ID/@43.365257,-116.390817,10z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x54ac2c3edc7b750f:0x2867d621af6a7ad4!2m2!1d-115.6848083!2d43.1301726!1m5!1m1!1s0x54ae494d7256b163:0x9307542004abb280!2m2!1d-116.555591!2d43.544794!3e0">@Skyview</a> at <small>6:00 PM, depart at 2:15 PM, dismiss at 2:00 PM</small><span class="black pull-right"><small></small></span>
 	      </li>
-	        <li class="list-group-item opacity">
-	        <h4 class="list-group-item-heading">Districts <span class="label label-info label-orange pull-right">12/5/16</span></h4>
-	        @TBA
+	      <li class="list-group-item opacity">
+	        <h4 class="list-group-item-heading">*Middleton High School<span class="label label-info label-orange pull-right">Tues. 1/31/17</span></h4>
+	        Home <small>at 6:00 PM</small>
 	      </li>
-	        <li class="list-group-item dark-row opacity">
-	        <h4 class="list-group-item-heading">4A State <span class="label label-info label-orange pull-right">12/6/16</span></h4>
-	        @Idaho
-	      </li>
+	       <li class="list-group-item dark-row opacity">
+		        <h4 class="list-group-item-heading">Opp. TBA (Districts @ BK) <span class="label label-info label-orange pull-right">Fri. 2/03/17</span></h4>
+		        <a target="_blank" href="https://www.google.com/maps/dir/Mountain+Home+High+School,+300+South+11th+East,+Mountain+Home,+ID+83647/Bishop+Kelly+High+school,+West+Franklin+Road,+Boise,+ID/@43.3672539,-116.259631,10z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x54ac2c3edc7b750f:0x2867d621af6a7ad4!2m2!1d-115.6848083!2d43.1301726!1m5!1m1!1s0x54ae566697a2042d:0xf5f0ceb30375be4c!2m2!1d-116.2957323!2d43.6049103!3e0">@Bishop Kelly</a>
+	      	</li>
+	      	<li class="list-group-item dark-row opacity">
+		        <h4 class="list-group-item-heading">Opp. TBA (Districts @ BK) <span class="label label-info label-orange pull-right">Sat. 2/04/17</span></h4>
+		        <a target="_blank" href="https://www.google.com/maps/dir/Mountain+Home+High+School,+300+South+11th+East,+Mountain+Home,+ID+83647/Bishop+Kelly+High+school,+West+Franklin+Road,+Boise,+ID/@43.3672539,-116.259631,10z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x54ac2c3edc7b750f:0x2867d621af6a7ad4!2m2!1d-115.6848083!2d43.1301726!1m5!1m1!1s0x54ae566697a2042d:0xf5f0ceb30375be4c!2m2!1d-116.2957323!2d43.6049103!3e0">@Bishop Kelly</a>
+	      	</li>
+	      	  
 	     </div>
-      <!-- /Schedule -->
+      <!-- /Junior Varsity Schedule -->
+      </div>
+
+      	 <!-- Sophomore Schedule -->
+	<div id="sophomore" class="container-fluid schedule black-bg padding-top">
+		<div class="row schedule">
+			<div class="container p-b-sm">
+			<h4 class="text-left white">Tiger's Sophomore Schedule 2016 <span class="pull-right">Tiger's Sophomore Record: 0 - 0</span></h4><small><div class="white">(dark highlight = away game, * = league event)</div></small>
+			
+			</div>
 		</div>
+		
+		
+   
+    	<div class="container padding-bottom black">
+
+	      <li class="list-group-item more-dark opacity">
+	        <h4 class="list-group-item-heading">Columbia High School
+	        <span class="label label-info label-orange pull-right">Sat. 11/12/16</span></h4>
+	        <a target="_blank" href="https://www.google.com/maps/dir/Mountain+Home+High+School,+300+South+11th+East,+Mountain+Home,+ID+83647/Columbia+High+School,+South+Happy+Valley+Road,+Nampa,+ID/@43.365257,-116.3703452,10z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x54ac2c3edc7b750f:0x2867d621af6a7ad4!2m2!1d-115.6848083!2d43.1301726!1m5!1m1!1s0x54ae4dd5524ea611:0x5a6d98300c2038a2!2m2!1d-116.5144236!2d43.5665245!3e0">@Columbia</a> at <small>4:30 PM, depart at 2:15 PM, dismiss at 2:00 PM</small><span class="black pull-right"><small></small></span>
+	      </li>
+	      <li class="list-group-item more-dark opacity">
+	        <h4 class="list-group-item-heading">Kimberly High School
+	        <span class="label label-info label-orange pull-right">Tues. 11/15/16</span></h4>
+	        <a target="_blank" href="https://www.google.com/maps/dir/Mountain+Home+High+School,+300+South+11th+East,+Mountain+Home,+ID+83647/Kimberly+High+School,+Center+Street+West,+Kimberly,+ID/@42.8346612,-115.5530349,9z/data=!4m14!4m13!1m5!1m1!1s0x54ac2c3edc7b750f:0x2867d621af6a7ad4!2m2!1d-115.6848083!2d43.1301726!1m5!1m1!1s0x54aca69429fe2bad:0xdbcf313c4be75f22!2m2!1d-114.373459!2d42.5317649!3e0">@Kimberly</a> at <small>4:30 PM, depart at 2:00 PM, dismiss at 1:45 PM</small><span class="black pull-right"><small></small></span>
+	      </li>
+	     <li class="list-group-item opacity">
+	        <h4 class="list-group-item-heading">*Ridgevue High School
+	        <span class="label label-info label-orange pull-right">Fri. 11/18/16</span></h4>
+	        Home <small>at 4:30 PM</small><span class="black pull-right"></span>
+	      </li>
+	      <li class="list-group-item opacity">
+	        <h4 class="list-group-item-heading">Wood River High School <span class="label label-info label-orange pull-right">Sat. 11/19/16</span></h4>
+	        Home <small>at 4:30 PM</small>
+	        <span class="black pull-right"></span>
+	      </li>
+           <li class="list-group-item more-dark opacity">
+	        <h4 class="list-group-item-heading">*Emmett High School
+	        <span class="label label-info label-orange pull-right">Wed. 11/30/16</span></h4>
+	        <a target="_blank" href="https://www.google.com/maps/dir/Mountain+Home+High+School,+300+South+11th+East,+Mountain+Home,+ID+83647/Emmett+High+School,+721+W+12th+St,+Emmett,+ID+83617/@43.4960707,-116.6464489,9z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x54ac2c3edc7b750f:0x2867d621af6a7ad4!2m2!1d-115.6848083!2d43.1301726!1m5!1m1!1s0x54afa759618c8961:0x5baededb98a89e9f!2m2!1d-116.5088832!2d43.8637921!3e0">@Emmett</a> at <small>4:30 PM, depart at 2:00 PM, dismiss at 1:45 PM</small><span class="black pull-right"><small></small></span>
+	      </li>
+	       <li class="list-group-item more-dark opacity">
+	        <h4 class="list-group-item-heading">*Vallivue High School
+	        <span class="label label-info label-orange pull-right">Fri. 12/02/16</span></h4>
+	        <a target="_blank" href="https://www.google.com/maps/dir/Mountain+Home+High+School,+300+South+11th+East,+Mountain+Home,+ID+83647/Vallivue+High+School,+East+Homedale+Road,+Caldwell,+ID/@43.306725,-116.4518041,10z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x54ac2c3edc7b750f:0x2867d621af6a7ad4!2m2!1d-115.6848083!2d43.1301726!1m5!1m1!1s0x54afb513fa648de5:0xc8c30071313df121!2m2!1d-116.6800784!2d43.6197893!3e0">@Vallivue</a> at <small>4:30 PM, depart at 2:30 PM, dismiss at 2:15 PM</small><span class="black pull-right"><small></small></span>
+	      </li>
+	      <li class="list-group-item opacity">
+	        <h4 class="list-group-item-heading">*Caldwell Senior High School<span class="label label-info label-orange pull-right">Wed. 12/07/16</span></h4>
+	        Home <small>at 4:30 PM</small>
+	      </li>
+	       <li class="list-group-item more-dark opacity">
+	        <h4 class="list-group-item-heading">Bishop Kelly High School
+	        <span class="label label-info label-orange pull-right">Sat. 12/10/16</span></h4>
+	        <a target="_blank" href="https://www.google.com/maps/dir/Mountain+Home+High+School,+300+South+11th+East,+Mountain+Home,+ID+83647/Bishop+Kelly+High+school,+West+Franklin+Road,+Boise,+ID/@43.3672539,-116.259631,10z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x54ac2c3edc7b750f:0x2867d621af6a7ad4!2m2!1d-115.6848083!2d43.1301726!1m5!1m1!1s0x54ae566697a2042d:0xf5f0ceb30375be4c!2m2!1d-116.2957323!2d43.6049103!3e0">@Bishop Kelly</a> at <small>10:00 AM, depart at 8:00 AM</small><span class="black pull-right"><small></small></span>
+	      </li>
+	         <li class="list-group-item more-dark opacity">
+		        <h4 class="list-group-item-heading">Opp. TBA (Capital Classic Tourney) <span class="label label-info label-orange pull-right">Wed. 12/21/16</span></h4>
+		        @TBA
+	      	</li>
+	          <li class="list-group-item more-dark opacity">
+		        <h4 class="list-group-item-heading">Opp. TBA (Capital Classic Tourney) <span class="label label-info label-orange pull-right">Thurs. 12/22/16</span></h4>
+		        @TBA
+	      	</li>
+	         <li class="list-group-item more-dark opacity">
+		        <h4 class="list-group-item-heading">Opp. TBA (Capital Classic Tourney) <span class="label label-info label-orange pull-right">Fri. 12/23/16</span></h4>
+		        @TBA
+	      	</li>
+	      	 <li class="list-group-item more-dark opacity">
+	        <h4 class="list-group-item-heading">Wood River High School
+	        <span class="label label-info label-orange pull-right">Tues. 1/03/17</span></h4>
+	        <a target="_blank" href="https://www.google.com/maps/dir/Mountain+Home+High+School,+300+South+11th+East,+Mountain+Home,+ID+83647/Wood+River+High+School,+Fox+Acres+Drive,+Hailey,+ID/@43.2201536,-115.5310442,9z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x54ac2c3edc7b750f:0x2867d621af6a7ad4!2m2!1d-115.6848083!2d43.1301726!1m5!1m1!1s0x54abd5003909fd03:0xfcad2c0ec037d5e6!2m2!1d-114.2936776!2d43.5175049!3e0">@Wood River</a> at <small>5:50 PM, depart at 2:30 PM, dismiss at 2:15 PM</small><span class="black pull-right"><small></small></span>
+	      </li>
+	     <li class="list-group-item opacity">
+	        <h4 class="list-group-item-heading">*Skyview High School<span class="label label-info label-orange pull-right">Wed. 1/04/17</span></h4>
+	        Home <small>at 4:30 PM</small>
+	      </li>
+	       <li class="list-group-item more-dark opacity">
+	        <h4 class="list-group-item-heading">*Middleton High School
+	        <span class="label label-info label-orange pull-right">Fri. 1/06/17</span></h4>
+	        <a target="_blank" href="https://www.google.com/maps/dir/Mountain+Home+High+School,+300+South+11th+East,+Mountain+Home,+ID+83647/Middleton+High+School,+Emmett+Road,+Middleton,+ID/@43.424364,-116.4619497,10z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x54ac2c3edc7b750f:0x2867d621af6a7ad4!2m2!1d-115.6848083!2d43.1301726!1m5!1m1!1s0x54afb19163ec0de5:0x5a7886fa82ae9255!2m2!1d-116.6515295!2d43.7182305!3e0">@Middleton</a> at <small>4:30 PM, depart at 2:15 PM, dismiss at 2:00 PM</small><span class="black pull-right"><small></small></span>
+	      </li>
+	       <li class="list-group-item more-dark opacity">
+	        <h4 class="list-group-item-heading">*Ridgevue High School
+	        <span class="label label-info label-orange pull-right">Tues. 1/10/17</span></h4>
+	        <a target="_blank" href="https://www.google.com/maps/dir/Mountain+Home+High+School,+300+South+11th+East,+Mountain+Home,+ID+83647/Ridgevue+High+School,+Madison+Road,+Nampa,+ID/@43.3876481,-116.3934236,10z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x54ac2c3edc7b750f:0x2867d621af6a7ad4!2m2!1d-115.6848083!2d43.1301726!1m5!1m1!1s0x54afb2c7538b60b9:0x4ec265d5467ffb3b!2m2!1d-116.5618044!2d43.6458334!3e0">@Ridgevue</a> at <small>4:30 PM, depart at 2:30 PM, dismiss at 2:15 PM</small><span class="black pull-right"><small></small></span>
+	      </li>
+	      <li class="list-group-item opacity">
+	        <h4 class="list-group-item-heading">*Emmett High School<span class="label label-info label-orange pull-right">Thurs. 1/12/17</span></h4>
+	        Home <small>at 4:30 PM</small>
+	      </li>
+	       <li class="list-group-item opacity">
+	        <h4 class="list-group-item-heading">*Vallivue High School<span class="label label-info label-orange pull-right">Tues. 1/17/17</span></h4>
+	        Home <small>at 4:30 PM</small>
+	      </li>
+	       <li class="list-group-item more-dark opacity">
+	        <h4 class="list-group-item-heading">*Caldwell Senior High School
+	        <span class="label label-info label-orange pull-right">Thurs. 1/19/17</span></h4>
+	        <a target="_blank" href="https://www.google.com/maps/dir/Mountain+Home+High+School,+300+South+11th+East,+Mountain+Home,+ID+83647/Caldwell+High+School,+South+Indiana+Avenue,+Caldwell,+ID/@43.3278936,-116.7314908,9z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x54ac2c3edc7b750f:0x2867d621af6a7ad4!2m2!1d-115.6848083!2d43.1301726!1m5!1m1!1s0x54afb4677526c3e1:0xc867ecf4de030fbe!2m2!1d-116.6700922!2d43.6392667!3e0">@Caldwell</a> at <small>4:30 PM, depart at 2:15 PM, dismiss at 2:00 PM</small><span class="black pull-right"><small></small></span>
+	      </li>
+	      <li class="list-group-item opacity">
+	        <h4 class="list-group-item-heading">*Bishop Kelly High School<span class="label label-info label-orange pull-right">Tues. 1/24/17</span></h4>
+	        Home <small>at 4:30 PM</small>
+	      </li>
+	       <li class="list-group-item opacity">
+	        <h4 class="list-group-item-heading">*Skyview High School
+	        <span class="label label-info label-orange pull-right">Thurs. 1/26/17</span></h4>
+	        <a target="_blank" href="https://www.google.com/maps/dir/Mountain+Home+High+School,+300+South+11th+East,+Mountain+Home,+ID+83647/Skyview+High+School,+East+Greenhurst+Road,+Nampa,+ID/@43.365257,-116.390817,10z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x54ac2c3edc7b750f:0x2867d621af6a7ad4!2m2!1d-115.6848083!2d43.1301726!1m5!1m1!1s0x54ae494d7256b163:0x9307542004abb280!2m2!1d-116.555591!2d43.544794!3e0">@Skyview</a> at <small>4:30 PM, depart at 2:15 PM, dismiss at 2:00 PM</small><span class="black pull-right"><small></small></span>
+	      </li>
+	      <li class="list-group-item opacity">
+	        <h4 class="list-group-item-heading">*Middleton High School<span class="label label-info label-orange pull-right">Tues. 1/31/17</span></h4>
+	        Home <small>at 4:30 PM</small>
+	      </li>
+	       <li class="list-group-item more-dark opacity">
+		        <h4 class="list-group-item-heading">Opp. TBA (Districts @ Middleton) <span class="label label-info label-orange pull-right">Fri. 2/03/17</span></h4>
+		        <a target="_blank" href="https://www.google.com/maps/dir/Mountain+Home+High+School,+300+South+11th+East,+Mountain+Home,+ID+83647/Middleton+High+School,+Emmett+Road,+Middleton,+ID/@43.424364,-116.4619497,10z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x54ac2c3edc7b750f:0x2867d621af6a7ad4!2m2!1d-115.6848083!2d43.1301726!1m5!1m1!1s0x54afb19163ec0de5:0x5a7886fa82ae9255!2m2!1d-116.6515295!2d43.7182305!3e0">@Middleton</a>
+	      	</li>
+	      	<li class="list-group-item more-dark opacity">
+		        <h4 class="list-group-item-heading">Opp. TBA (Districts Championship @ BK) <span class="label label-info label-orange pull-right">Sat. 2/04/17</span></h4>
+		        <a target="_blank" href="https://www.google.com/maps/dir/Mountain+Home+High+School,+300+South+11th+East,+Mountain+Home,+ID+83647/Bishop+Kelly+High+school,+West+Franklin+Road,+Boise,+ID/@43.3672539,-116.259631,10z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x54ac2c3edc7b750f:0x2867d621af6a7ad4!2m2!1d-115.6848083!2d43.1301726!1m5!1m1!1s0x54ae566697a2042d:0xf5f0ceb30375be4c!2m2!1d-116.2957323!2d43.6049103!3e0">@Bishop Kelly</a>
+	      	</li>
+	      	  
+	     </div>
+      <!-- /Sophomore Schedule -->
+      </div>
 
 		<footer class="footer-bg">
 			<div class="container">
 				<div class="col-md-6">Mountain Home High School<br>
-				300 S 11th E.<br>Mountain Home, ID<br>83647
+				300 S 11th E.<br>Mountain Home, ID<br>83647<br>
+				<span class="glyphicon glyphicon-earphone"></span> (208) 587-2570
 				</div>
 				
 				<div class="col-md-6 text-left">
-				info@mountainhome.com
+				Coach Brent Keener:<br><span class="glyphicon glyphicon-earphone"></span> (208) 571-2891
 				<br>
-				Coached by Jack Dooley:<br><span class="glyphicon glyphicon-earphone"></span> (208) 350-1719
-				<br>
-				Mountain Home High School: <br>
-				 <span class="glyphicon glyphicon-earphone"></span> (208) 587-2570
+				<span class="glyphicon glyphicon-envelope"></span> keener_bj@mtnhomesd.org
 				</div>
 
 			</div>

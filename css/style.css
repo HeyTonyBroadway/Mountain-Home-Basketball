@@ -4,6 +4,13 @@ body {
 	color: #3a3a3a;
 }
 
+.line-height {
+	line-height: 1.75!important;
+}
+.inline {
+	display: inline-block;
+}
+
 /* ===== Breadcrumbs ==== */
 
 .font-cool-color a{
@@ -88,7 +95,9 @@ body {
 	padding-top: 2rem;
 	padding-bottom: 2rem;
 	color: #fff;
+	
 }
+
 
 .announcement {
 	background-color: #d0774d;
@@ -104,6 +113,21 @@ body {
 .schedule {
 	/*background-color: #d0774d;*/
 	color: #000;
+}
+
+.schedule-links a {
+	color: #000!important;
+	text-decoration: none;
+}
+
+.schedule-links:hover a {
+	color: orange!important;
+	
+}
+
+.black-bg {
+	background-color: #333;
+	color: #fff;
 }
 
 .black {
@@ -128,6 +152,10 @@ body {
 
 .dark-row {
 	background: #f2f2f2;
+}
+
+.more-dark {
+	background-color: #e0e0e0;
 }
 
 .padding-bottom {
